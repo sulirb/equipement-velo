@@ -45,7 +45,7 @@ function ContactForm() {
         "aiNkOMGWI24xxwPF-"
       );
       toggleAlert(
-        "Votre e-mail a bien été envoyé, vous allez être redirigé sur la page d'accueil.",
+        "Votre e-mail a bien été envoyé, une réponse vous sera renvoyé dans les plus proches délais.",
         "success"
       );
     } catch (e) {

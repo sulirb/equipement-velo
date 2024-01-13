@@ -202,7 +202,7 @@
   },
   {
     "slug": "vetements-rapha",
-    "modeles": ["Casquette Rapha Cap", "Rapha Core", "Rapha Cargo"],
+    "modeles": ["Casquette Rapha Cap II", "Rapha Core", "Rapha Cargo"],
     "photos": [
       "https://img01.ztat.net/article/spp-media-p1/7bb53ace094940229a6cf5d381615988/d127c88fa02c4a5786f1a0c78d84e598.jpg",
       "https://img01.ztat.net/article/spp-media-p1/f265d2c893384998bf09f92a72d1f372/0d9613c953684e27a47dc5ffa5ddab29.jpg",
@@ -225,7 +225,11 @@
   },
   {
     "slug": "vetements-santini",
-    "modeles": ["Santini Nebula", "Santini Colore Puro", "Santini Karma Delta"],
+    "modeles": [
+      "Santini Nebula Puro",
+      "Santini Colore Puro",
+      "Santini Karma Delta"
+    ],
     "photos": [
       "https://www.santinicycling.com/137551-large_default/nebula-gilet-coupe-vent.jpg?v=4",
       "https://www.santinicycling.com/105232-large_default/colore-puro-maillot.jpg?v=4",
