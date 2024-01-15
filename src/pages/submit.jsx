@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../components/editor.scss";
 import { useCookies } from "react-cookie";
+import axios from "axios";
 
 const SubmitImage = () => {
   const [cookies] = useCookies(["token"]);
@@ -50,10 +51,12 @@ const SubmitImage = () => {
         return response.json();
       })
       .then(() => {
+        axios.get("http://localhost:80/images").then((resp) => {
+          const datafile = resp.data[0].file;
+          setImageURL(datafile);
+        });
         setConfirmationMessage("L'image a été enregistré avec succès !");
         setError(""); // Réinitialisez les erreurs
-        const imageUrl = URL.createObjectURL(file);
-        setImageURL(imageUrl);
       })
       .catch((error) => {
         console.error("Erreur lors de l'enregistrement des données : ", error);
