@@ -14,10 +14,9 @@ import SubmitImage from "../pages/submit";
 import Mentions from "../pages/mentions";
 import Contact from "../pages/contact";
 
-const base = import.meta.env.BASE_URL;
 export function App() {
   return (
-    <HashRouter basename={base}>
+    <HashRouter basename="/">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
