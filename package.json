@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://equipement-velo.onrender.com/#",
+  "homepage": "https://equipement-velo.onrender.com/",
   "scripts": {
     "dev": "vite",
     "start": "vite",
