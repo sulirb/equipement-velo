@@ -21,11 +21,11 @@ export function App() {
       <Header />
       <Routes>
         <Route path="" element={<Home />} />
-        <Route path="/connexion" element={<Connexion />} />
-        <Route path="/ecriture" element={<Ecriture />} />
-        <Route path="/submit" element={<SubmitImage />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/mentions-legales" element={<Mentions />} />
+        <Route path="connexion" element={<Connexion />} />
+        <Route path="ecriture" element={<Ecriture />} />
+        <Route path="submit" element={<SubmitImage />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="mentions-legales" element={<Mentions />} />
         {lunettesRoute()}
         {vetementsRoute()}
         {chaussuresRoute()}
