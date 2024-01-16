@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Home from "../pages/home";
 import Error from "../pages/error";
 import Connexion from "../pages/connexion";
@@ -17,7 +17,7 @@ import Contact from "../pages/contact";
 const base = import.meta.env.BASE_URL;
 export function App() {
   return (
-    <Router basename={base}>
+    <HashRouter basename={base}>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -34,7 +34,7 @@ export function App() {
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
-    </Router>
+    </HashRouter>
   );
 }
 
