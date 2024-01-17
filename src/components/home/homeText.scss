@@ -2,10 +2,12 @@
 
 .hometext {
   display: inline-block;
-  margin: 1em 12em;
+
+  background-color: $back-article-color;
   &__container {
-    background-color: $fond-color;
+    background-color: white;
     padding: 1em 3em 3em;
+    margin: 1em 12em;
     border-radius: 10px;
     margin-bottom: 2em;
   }

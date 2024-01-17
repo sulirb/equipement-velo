@@ -2,6 +2,7 @@ import Dropdown from "./dropdown";
 import "./header.scss";
 import { Icon } from "@iconify/react";
 import { useState } from "react";
+import websiteLogo from "../assets/logo.png";
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
@@ -14,10 +15,7 @@ function Header() {
     <header className="header">
       <h1 className="header__logo">
         <a href="/">
-          <img
-            src="/src/assets/logo.png"
-            alt="Logo du site equipement-velo.com"
-          />
+          <img src={websiteLogo} alt="Logo du site equipement-velo.com" />
         </a>
       </h1>
       <nav className="header__nav">

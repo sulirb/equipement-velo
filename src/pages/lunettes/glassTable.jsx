@@ -7,7 +7,7 @@ function GlassTable() {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    fetch("../src/json/glasses.json")
+    fetch("../public/glasses.json")
       .then((response) => response.json())
       .then((jsonData) => {
         const marqueData = jsonData.find((item) => item.slug === slug);

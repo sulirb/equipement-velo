@@ -7,7 +7,7 @@ function ShoeTable() {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    fetch("../src/json/shoes.json")
+    fetch("../public/shoes.json")
       .then((response) => response.json())
       .then((jsonData) => {
         const marqueData = jsonData.find((item) => item.slug === slug);
