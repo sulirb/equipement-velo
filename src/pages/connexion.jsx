@@ -29,11 +29,14 @@ function Connexion() {
 
     try {
       // Effectuez une requête au serveur pour vérifier les informations d'identification
-      const response = await axios.post("http://localhost:80/auth/login", {
-        username,
-        password,
-        code,
-      });
+      const response = await axios.post(
+        "https://equipement-velo-api.onrender.com/auth/login",
+        {
+          username,
+          password,
+          code,
+        }
+      );
 
       if (response.status === 200) {
         // Connexion réussie, stockez le token dans le navigateur (par exemple, dans localStorage ou un cookie)

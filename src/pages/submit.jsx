@@ -34,7 +34,7 @@ const SubmitImage = () => {
     formData.append("title", title);
     formData.append("image", file);
 
-    fetch("http://localhost:80/images", {
+    fetch("https://equipement-velo-api.onrender.com/images", {
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -51,10 +51,12 @@ const SubmitImage = () => {
         return response.json();
       })
       .then(() => {
-        axios.get("http://localhost:80/images").then((resp) => {
-          const datafile = resp.data[0].file;
-          setImageURL(datafile);
-        });
+        axios
+          .get("https://equipement-velo-api.onrender.com/images")
+          .then((resp) => {
+            const datafile = resp.data[0].file;
+            setImageURL(datafile);
+          });
         setConfirmationMessage("L'image a été enregistré avec succès !");
         setError(""); // Réinitialisez les erreurs
       })

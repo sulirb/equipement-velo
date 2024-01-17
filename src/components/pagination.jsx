@@ -13,7 +13,7 @@ function Pagination({ currentPage }) {
   };
 
   useEffect(() => {
-    fetch(`http://localhost:80/articles/`)
+    fetch(`https://equipement-velo-api.onrender.com/articles/`)
       .then((res) => res.json())
       .then((data) => setArticles(data));
   }, []);

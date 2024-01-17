@@ -54,7 +54,7 @@ const MyEditor = () => {
     formData.append("image", file);
     formData.append("tag", tag);
 
-    fetch("http://localhost:80/articles", {
+    fetch("https://equipement-velo-api.onrender.com/articles", {
       headers: {
         Authorization: `Bearer ${token}`,
       },

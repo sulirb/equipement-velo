@@ -6,7 +6,7 @@ function ArticlesGrid() {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:80/articles/latest")
+    fetch("https://equipement-velo-api.onrender.com/articles/latest")
       .then((res) => res.json())
       .then((data) => setArticles(data));
   }, []);
