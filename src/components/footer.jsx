@@ -1,14 +1,12 @@
 import "./footer.scss";
 import { Icon } from "@iconify/react";
+import websiteLogo from "../assets/logo.png";
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer__flex-a">
-        <img
-          src="/src/assets/logo.png"
-          alt="Logo du site equipement-velo.com"
-        />
+        <img src={websiteLogo} alt="Logo du site equipement-velo.com" />
         <p>
           Découvrez les meilleurs conseils pour choisir vos équipements de vélo
           adaptés à votre style et à vos besoins.

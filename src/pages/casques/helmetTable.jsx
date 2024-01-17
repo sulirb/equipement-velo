@@ -7,7 +7,7 @@ function HelmetTable() {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    fetch("../public/helmets.json")
+    fetch("../helmets.json")
       .then((response) => response.json())
       .then((jsonData) => {
         const marqueData = jsonData.find((item) => item.slug === slug);
