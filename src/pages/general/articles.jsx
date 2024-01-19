@@ -4,14 +4,13 @@ import "./articles.scss";
 import Pagination from "../../components/pagination";
 import PropTypes from "prop-types";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import { baseUrl } from "../../utils/baseUrl";
 
 function Articles({ page }) {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
-    fetch(
-      `https://equipement-velo-api.onrender.com/articles/?page=${page}&perPage=20`
-    )
+    fetch(`${baseUrl}/articles/?page=${page}&perPage=20`)
       .then((res) => res.json())
       .then((data) => {
         setArticles(data);

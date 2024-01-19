@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 import Card from "./homeCard";
 import "./articlesGrid.scss";
+import { baseUrl } from "../../utils/baseUrl";
 
 function ArticlesGrid() {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
-    fetch("https://equipement-velo-api.onrender.com/articles/latest")
+    fetch(`${baseUrl}/articles/latest`)
       .then((res) => res.json())
       .then((data) => setArticles(data));
   }, []);

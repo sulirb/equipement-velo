@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "../components/editor.scss";
 import { useCookies } from "react-cookie";
 import axios from "axios";
+import { baseUrl } from "../utils/baseUrl";
 
 const SubmitImage = () => {
   const [cookies] = useCookies(["token"]);
@@ -34,7 +35,7 @@ const SubmitImage = () => {
     formData.append("title", title);
     formData.append("image", file);
 
-    fetch("https://equipement-velo-api.onrender.com/images", {
+    fetch(`${baseUrl}/images`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -51,12 +52,10 @@ const SubmitImage = () => {
         return response.json();
       })
       .then(() => {
-        axios
-          .get("https://equipement-velo-api.onrender.com/images")
-          .then((resp) => {
-            const datafile = resp.data[0].file;
-            setImageURL(datafile);
-          });
+        axios.get(`${baseUrl}/images`).then((resp) => {
+          const datafile = resp.data[0].file;
+          setImageURL(datafile);
+        });
         setConfirmationMessage("L'image a été enregistré avec succès !");
         setError(""); // Réinitialisez les erreurs
       })

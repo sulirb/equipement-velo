@@ -5,6 +5,7 @@ import "./article.scss";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { useNavigate } from "react-router-dom";
 import { useCookies } from "react-cookie";
+import { baseUrl } from "../../utils/baseUrl";
 
 function Article() {
   const [article, setArticle] = useState(null);
@@ -14,7 +15,7 @@ function Article() {
   const token = cookies.token;
 
   useEffect(() => {
-    fetch(`https://equipement-velo-api.onrender.com/article/${slug}`)
+    fetch(`${baseUrl}/article/${slug}`)
       .then((res) => {
         if (!res.ok) {
           throw new Error("404 Not Found");
@@ -36,7 +37,7 @@ function Article() {
   }, [slug]);
 
   const deleteArticle = () => {
-    fetch(`https://equipement-velo-api.onrender.com/article/${slug}`, {
+    fetch(`${baseUrl}/article/${slug}`, {
       method: "DELETE",
       headers: {
         Authorization: `Bearer ${token}`,

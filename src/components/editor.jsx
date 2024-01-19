@@ -6,6 +6,7 @@ import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 import "./editor.scss";
 import draftToHtml from "draftjs-to-html";
 import { useCookies } from "react-cookie";
+import { baseUrl } from "../utils/baseUrl";
 
 const MyEditor = () => {
   const [cookies] = useCookies(["token"]);
@@ -54,7 +55,7 @@ const MyEditor = () => {
     formData.append("image", file);
     formData.append("tag", tag);
 
-    fetch("https://equipement-velo-api.onrender.com/articles", {
+    fetch(`${baseUrl}/articles`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },

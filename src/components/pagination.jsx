@@ -3,6 +3,7 @@ import { Icon } from "@iconify/react";
 import PropTypes from "prop-types";
 import "./pagination.scss";
 import { useEffect, useState } from "react";
+import { baseUrl } from "../utils/baseUrl";
 
 function Pagination({ currentPage }) {
   const [articles, setArticles] = useState([]);
@@ -13,7 +14,7 @@ function Pagination({ currentPage }) {
   };
 
   useEffect(() => {
-    fetch(`https://equipement-velo-api.onrender.com/articles/`)
+    fetch(`${baseUrl}/articles/`)
       .then((res) => res.json())
       .then((data) => setArticles(data));
   }, []);
