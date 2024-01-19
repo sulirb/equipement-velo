@@ -13,7 +13,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/Fizik-Powerstrap-Chaussures-Chaussure-réfléchissant/dp/B07Z9YFSM9",
           "https://www.amazon.fr/Fizik-Tempo-Overcurve-2020-Noir/dp/B083ZK4TGZ",
@@ -21,7 +21,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-10006-chaussures-velo/P-1228518-chaussures_route_fizik_tempo_powerstrap_r5_gris_reflective",
           "https://www.alltricks.fr/F-10006-chaussures-velo/P-1228514-chaussures_route_fizik_tempo_overcurve_r5_noir",
@@ -40,7 +40,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "",
           "",
@@ -48,7 +48,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-10006-chaussures-velo/P-2104109-chaussures_route_gaerne_g_tornado_large_noir_mat",
           "https://www.alltricks.fr/F-10006-chaussures-velo/P-2702770-paire_de_chaussures_route_gaerne_g_record_blanc",
@@ -71,11 +71,11 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": []
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-10006-chaussures-velo/P-2579471-chaussures_route_mavic_cosmic_elite_sl_noir",
           "https://www.alltricks.fr/F-10006-chaussures-velo/P-1907144-chaussures_route_mavic_cosmic_boa_blanc",
@@ -98,7 +98,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/Northwave-Chaussures-Route-Sport-Mixte/dp/B08KTH5MWT",
           "https://www.amazon.fr/Northwave-Jet-2-Chaussures-Cyclisme/dp/B07HMDYC89",
@@ -106,7 +106,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-10006-chaussures-velo/P-1668690-chaussures_northwave_core_plus_2_blanc_noir",
           "https://www.alltricks.fr/F-10006-chaussures-velo/P-492802-chaussures_route_northwave_jet_2_noir",
@@ -125,7 +125,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/Shimano-Zapatillas-SH-RC502-Chaussure-Cyclisme/dp/B09771Q7YN",
           "https://www.amazon.fr/SHIMANO-Baskets-Rc100-Mixte-Marine/dp/B08HYVZPK4",
@@ -133,7 +133,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-10006-chaussures-velo/P-1970469-paire_de_chaussures_route_shimano_rc502_bleu",
           "https://www.alltricks.fr/F-10006-chaussures-velo/P-1600811-chaussures_de_route_shimano_rc100_bleu_navy",
@@ -152,7 +152,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/Sidi-ZAPATILLAS-FAST-NEGRO-T-45/dp/B08NFKQB3D",
           "https://www.amazon.fr/Sidi-ALBA-2-Alba/dp/B07ZM3RM26",
@@ -160,7 +160,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-10006-chaussures-velo/P-1651584-chaussures_route_sidi_fast_noir",
           "https://www.alltricks.fr/F-10006-chaussures-velo/P-1651578-chaussures_route_sidi_alba_2_blanc___noir",

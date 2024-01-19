@@ -9,7 +9,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/ALE-Maillot-Manches-Courtes-Blanc/dp/B0B46Z96RN",
           "https://www.amazon.fr/Alé-Cycling-Manches-Courtes-Cyclisme/dp/B09TZY3RHP",
@@ -17,7 +17,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-32744-textile-hauts/P-2139998-maillot_manches_courtes_ale_logo_blanc",
           "https://www.alltricks.fr/F-32744-textile-hauts/P-2139978-maillot_manches_courtes_ale_turbo_bleu",
@@ -36,7 +36,7 @@
     "photos": [],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.materiel-velo.com/47795-large_default/cuissard-court-velo-assos-equipe-rs-s9.jpg",
           "https://media.alltricks.com/large/218488561bb2156115053.01574866.jpg",
@@ -44,7 +44,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-41500-textile-bas/P-2512482-cuissard_assos_equipe_rs_bib_shorts_s9_targa_dam_bleu",
           "https://www.alltricks.fr/F-41500-textile-bas/P-2039808-cuissard_assos_mille_gt_c2_noir",
@@ -67,7 +67,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/CASTELLI-4523002-123-BIBSHORT-Shorts-Black/dp/B0BRVF96F8",
           "https://www.amazon.fr/CASTELLI-CLASSIFICA-Jersey-T-Shirt-Light/dp/B08THRM1J1",
@@ -75,7 +75,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-41500-textile-bas/P-2042065-cuissard_castelli_free_aero_rc_noir",
           "https://www.alltricks.fr/F-32744-textile-hauts/P-2041858-maillot_manches_courtes_castelli_classifica_rouge",
@@ -98,7 +98,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/Endura-Primaloft-Gilet-pour-homme/dp/B083WPQJQ3",
           "https://www.amazon.fr/Endura-Xtract-Short-Cyclisme-X-Large/dp/B07P9G9Z4K/",
@@ -106,7 +106,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-32744-textile-hauts/P-1026593-gilet_endura_pro_sl_ii_noir",
           "https://www.alltricks.fr/F-41500-textile-bas/P-709096-sous_short_endura_xtract_gel_ii_noir",
@@ -129,7 +129,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/GORE-WEAR-Gore-TEX-INFINIUM-Jackets/dp/B082YDD61C",
           "https://www.amazon.fr/GORE-WEAR-Cyclisme-GORE-TEX-INFINIUM/dp/B08DS596RL",
@@ -137,7 +137,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-32744-textile-hauts/P-2413212-veste_gore_wear_c5_gore_tex_infinium_thermo_orange",
           "https://www.alltricks.fr/F-32744-textile-hauts/P-1682407-veste_gore_wear_ambient_noir",
@@ -160,11 +160,11 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": []
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-41500-textile-bas/P-2576971-cuissard_court_a_bretelles_le_col_sport_ii_bleu_navy_orange",
           "https://www.alltricks.fr/F-32744-textile-hauts/P-2576840-maillot_manches_courtes_le_col_sport_bleu_orange",
@@ -187,11 +187,11 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": []
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-32744-textile-hauts/P-2602166-maillot_manches_courtes_q36_5_pinstripe_pro_rouge",
           "https://www.alltricks.fr/F-32744-textile-hauts/P-2602162-baselayer_sans_manches_q36_5_zero_mesh_bleu_navy",
@@ -210,11 +210,11 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": []
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-32734-bonneterie-_-manchettes-_-jambieres/P-2708809-casquette_rapha_cap_ii_bleu_fonce_bleu",
           "https://www.alltricks.fr/F-32744-textile-hauts/P-2575149-maillot_manches_courtes_rapha_core_bleu_navy",
@@ -237,7 +237,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/Santini-Nebula-Puro-Gilet-Anti-Stress-Homme/dp/B0B71KVNDL",
           "https://www.amazon.fr/Santini-Colore-Maillot-manches-courtes/dp/B09V7SH8M1",
@@ -245,7 +245,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-32744-textile-hauts/P-2709514-veste_coupe_vent_santini_nebula_orange",
           "https://www.alltricks.fr/F-32744-textile-hauts/P-2543557-maillot_manches_courtes_santini_colore_puro_bleu",
@@ -264,7 +264,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/Sportful-Maillot-Giara-Bordeaux-vert/dp/B091XTC7BS",
           "https://www.amazon.fr/dp/B0CHWK2MVM",
@@ -272,7 +272,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-32744-textile-hauts/P-2555557-maillot_manches_courtes_sportful_giara_noir",
           "https://www.alltricks.fr/F-32744-textile-hauts/P-2555592-maillot_manches_courtes_sportful_rocket_violet_bleu",

@@ -9,7 +9,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/dp/B08H8R3DS4/ref=twister_B0C55PX8BZ",
           "https://www.amazon.fr/ALPINA-Unisexe-Adultes-OVERVIEW-Lunettes/dp/B005F1J2ZS",
@@ -17,7 +17,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": []
       }
     ]
@@ -32,11 +32,11 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": []
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-32745-masques-_-lunettes/P-2586365-lunettes_bolle_lightshifter_turquoise_creator_teal_metallic___volt__ruby_polarized",
           "https://www.alltricks.fr/F-32745-masques-_-lunettes/P-2037643-lunettes_de_soleil_bolle_bolt_2_0_s_classic_noir_shiny",
@@ -55,7 +55,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/Julbo-Ultimate-Lunettes-Soleil-Hommes/dp/B08PMK3MMN",
           "https://www.amazon.fr/Julbo-Renegade-Lunettes-Unisexe-TRANSLU/dp/B08PMY515V",
@@ -63,7 +63,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-32745-masques-_-lunettes/P-1643445-lunettes_julbo_ultimate_spectron_3_noir___rouge",
           "https://www.alltricks.fr/F-32745-masques-_-lunettes/P-2599924-julbo_renegade_m_noir_polarized_3",
@@ -82,7 +82,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/Oakley-Encoder-Strike-Lunettes-ventilées/dp/B0C2FNSGSZ/",
           "https://www.amazon.fr/Oakley-Sutro-Lite-Matte-Black/dp/B09V1NP26R/",
@@ -90,7 +90,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-32745-masques-_-lunettes/P-2555985-lunettes_oakley_encoder_strike_matte_black___prizm_road___ref___oo9235_0239",
           "https://www.alltricks.fr/F-32745-masques-_-lunettes/P-1645821-lunettes_oakley_sutro_lite_noir_mat___prizm_road___ref_oo9463_0139",
@@ -113,7 +113,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/Rudy-Project-Lunette-Rydon-Carbon/dp/B07KFRTDCZ",
           "https://www.amazon.fr/Rudy-Project-Lunettes-Propulse-White/dp/B07ZZMXZQK",
@@ -121,7 +121,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": []
       }
     ]
@@ -136,7 +136,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/SMITH-Attack-Lunettes-Sport-Noir/dp/B08QVKY975/",
           "https://www.amazon.fr/SMITH-OPTICS-スミスオプティクス-Flywheel-Multicolore/dp/B07GDHZ71X",
@@ -144,7 +144,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-32745-masques-_-lunettes/P-1642861-lunettes_smith_attack_mag_noir_mat___chromapop_violet_mirror",
           "https://www.alltricks.fr/F-32745-masques-_-lunettes/P-1664568-lunettes_smith_flywheel_matte_black___chromapop___noir",
@@ -167,7 +167,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/uvex-Lunettes-sport-pour-adulte/dp/B0B24JQBWX",
           "https://www.amazon.fr/Uvex-Sportstyle-Lunettes-Soleil-Adulte/dp/B01KCFZ9NA",
@@ -175,7 +175,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-32745-masques-_-lunettes/P-1983534-lunettes_uvex_sportstyle_231_vert___rouge",
           "https://www.alltricks.fr/F-32745-masques-_-lunettes/P-2063324-lunetes_uvex_sportstyle_223_black_grey___clear",

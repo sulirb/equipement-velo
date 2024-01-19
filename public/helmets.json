@@ -9,7 +9,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/Casque-vélo-course-ABUS-PowerDome/dp/B0BF5H7M4Y",
           "https://www.amazon.fr/Abus-ABUS-Viantor-MIPS-Casque/dp/B0CB419BNP",
@@ -17,7 +17,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-10007-casques/P-2469019-casque_abus_powerdome_ace_moss_green___vert",
           "https://www.alltricks.fr/F-10007-casques/P-345665-casque_abus_viantor_noir_mat",
@@ -36,7 +36,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/BELL-Falcon-Casque-Unisexe-Camouflage/dp/B0BDSBX6X3",
           "https://www.amazon.fr/BELL-Avenue-Mixte-Adulte-Universal-50-57cm/dp/B09JCQGHZK/",
@@ -44,7 +44,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-10007-casques/P-2504268-casque_bell_falcon_xr_mips_noir_camo",
           "https://www.alltricks.fr/F-10007-casques/P-2022445-casque_bell_avenue_mat_bleu",
@@ -63,7 +63,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/Giro-Cinder-Casque-Mixte-Blanc/dp/B01M7NIZJH",
           "https://www.amazon.fr/Giro-Isode-Casque-Mixte-Sizesize/dp/B07771SN8D",
@@ -71,7 +71,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-10007-casques/P-1899777-casque_giro_cinder_mips_noir___jaune",
           "",
@@ -90,7 +90,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/Kask-Casco-Valegro-Blanco-Gypsum/dp/B09J38LLQX",
           "https://www.amazon.fr/Casque-Kask-Synthèse-WG11-taille/dp/B0BTDL3NCF",
@@ -98,7 +98,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-10007-casques/P-1916511-casque_kask_valegro_wg11_blanc",
           "https://www.alltricks.fr/F-10007-casques/P-2464386-casque_kask_sintesi_gris",
@@ -121,7 +121,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/Lazer-Helmet-Genesis-Unisexe-Adulte-Multicolore/dp/B0B34HSR3F/",
           "https://www.amazon.fr/Lazer-Casco-Strada-Kineticore-Blanco/dp/B09XSPCYST",
@@ -129,7 +129,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-10007-casques/P-2269960-casque_lazer_genesis_ce",
           "https://www.alltricks.fr/F-10007-casques/P-2219150-casque_lazer_strada_kineticore_blanc",
@@ -148,7 +148,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/Met-Helmet-Vinci-Metallic-Glossy/dp/B08KW99NM8/",
           "https://www.amazon.fr/Idolo-Casque-vélo-Noir-52-59/dp/B01M0TF0PV/",
@@ -156,7 +156,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-10007-casques/P-1876273-casque_met_vinci_mips_bleu_2022",
           "https://www.alltricks.fr/F-10007-casques/P-2411471-casque_met_idolo_noir_mat_2023",
@@ -175,7 +175,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/POC-Casque-Unisex-Adult-Uranium-59-62cm/dp/B09FTJZ5KW/",
           "https://www.amazon.fr/POC-Casque-Unisex-Adult-Hydrogen-59-62cm/dp/B09FTGWLGL",
@@ -183,7 +183,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-10007-casques/P-2469057-casque_poc_octal_x_mips_uranium_noir",
           "https://www.alltricks.fr/F-10007-casques/P-2035081-casque_poc_omne_air_mips_blanc",
@@ -206,7 +206,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/Casque-Rudy-Venger-Yellow-Fluo-Black/dp/B081LKSLTC/",
           "https://www.amazon.fr/RUDY-PROJECT-CASCO-ROSSONERO-Rosso/dp/B07HY4WJ32",
@@ -214,7 +214,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": []
       }
     ]
@@ -229,7 +229,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/Scott-TAGO-Plus-Casque-Orange/dp/B0BXN9ZVHS",
           "https://www.amazon.fr/SCOTT-Casque-Supra-Radium-Yellow/dp/B08HHDSVVQ",
@@ -237,7 +237,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": []
       }
     ]
@@ -252,7 +252,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/SMITH-Network-MIPS-Casque-Route/dp/B0B1RNQYLN/",
           "https://www.amazon.fr/SMITH-Signal-Casque-Adulte-Unisexe/dp/B0B1GPJFLS",
@@ -260,7 +260,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "https://www.alltricks.fr/F-10007-casques/P-2536490-casque_smith_network_mips_bleu",
           "https://www.alltricks.fr/F-10007-casques/P-2548364-casque_smith_signal_bleu",
@@ -279,7 +279,7 @@
     ],
     "revendeurs": [
       {
-        "nom": "../src/assets/amazon-logo.png",
+        "nom": "/amazon-logo.png",
         "link": [
           "https://www.amazon.fr/uvex-Urban-Planet-Individuel-Ventilation/dp/B0B24LRN6B",
           "https://www.amazon.fr/uvex-Casque-Bicyclette-Unisexe-Yellow-Black/dp/B0999KH8S4",
@@ -287,7 +287,7 @@
         ]
       },
       {
-        "nom": "../src/assets/alltricks-logo.png",
+        "nom": "/alltricks-logo.png",
         "link": [
           "",
           "",
