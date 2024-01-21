@@ -74,6 +74,8 @@ function LunetteArticle() {
                 .substring(0, 150)}...`}
             />
             <meta name="twitter:image" content={article.file} />
+            <meta name="twitter:title" content={article.title} />
+            <meta name="og:title" content={article.title} />
             <meta
               name="og:description"
               content={`${article.content

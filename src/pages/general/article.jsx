@@ -66,6 +66,7 @@ function Article() {
                 .replace(/<[^>]*>/g, "")
                 .substring(0, 150)}...`}
             />
+            <meta name="twitter:title" content={article.title} />
             <meta
               name="twitter:description"
               content={`${article.content
@@ -73,6 +74,7 @@ function Article() {
                 .substring(0, 150)}...`}
             />
             <meta name="twitter:image" content={article.file} />
+            <meta name="og:title" content={article.title} />
             <meta
               name="og:description"
               content={`${article.content
