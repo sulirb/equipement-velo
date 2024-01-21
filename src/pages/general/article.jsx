@@ -74,6 +74,8 @@ function Article() {
                 .substring(0, 150)}...`}
             />
             <meta name="twitter:image" content={article.file} />
+            <meta name="twitter:card" content="summary" />
+            <meta property="og:type" content="website" />
             <meta name="og:title" content={article.title} />
             <meta
               name="og:description"
