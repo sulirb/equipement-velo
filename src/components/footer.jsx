@@ -22,7 +22,11 @@ function Footer() {
           >
             <Icon icon="mdi:twitter" />
           </a>
-          <a href="/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.facebook.com/profile.php?id=61555770154596"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Icon icon="mdi:facebook" />
           </a>
         </div>
