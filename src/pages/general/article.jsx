@@ -65,25 +65,52 @@ function Article() {
               content={`${article.content
                 .replace(/<[^>]*>/g, "")
                 .substring(0, 150)}...`}
+              data-react-helmet="true"
             />
-            <meta name="twitter:title" content={article.title} />
+            <meta
+              name="twitter:title"
+              content={article.title}
+              data-react-helmet="true"
+            />
             <meta
               name="twitter:description"
               content={`${article.content
                 .replace(/<[^>]*>/g, "")
                 .substring(0, 150)}...`}
+              data-react-helmet="true"
             />
-            <meta name="twitter:image" content={article.file} />
-            <meta name="twitter:card" content="summary" />
-            <meta property="og:type" content="website" />
-            <meta name="og:title" content={article.title} />
+            <meta
+              name="twitter:image"
+              content={article.file}
+              data-react-helmet="true"
+            />
+            <meta
+              name="twitter:card"
+              content="summary"
+              data-react-helmet="true"
+            />
+            <meta
+              property="og:type"
+              content="website"
+              data-react-helmet="true"
+            />
+            <meta
+              name="og:title"
+              content={article.title}
+              data-react-helmet="true"
+            />
             <meta
               name="og:description"
               content={`${article.content
                 .replace(/<[^>]*>/g, "")
                 .substring(0, 150)}...`}
+              data-react-helmet="true"
             />
-            <meta name="og:image" content={article.file} />
+            <meta
+              name="og:image"
+              content={article.file}
+              data-react-helmet="true"
+            />
           </Helmet>
           <h2 className="article__title">{article.title}</h2>
           <div className="article__date">Publié le : {article.createdAt}</div>
