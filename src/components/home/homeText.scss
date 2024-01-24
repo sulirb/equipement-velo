@@ -60,8 +60,11 @@
 
 @media (max-width: 768px) {
   .hometext {
+    background-color: $fond-color;
     &__container {
       padding: 2em 1em;
+      margin: 0 0 4em;
+      background-color: $back-article-color;
     }
     p {
       font-size: 14px;
