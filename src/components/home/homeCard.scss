@@ -3,7 +3,7 @@
 .card {
   height: 300px;
   max-width: 400px;
-  border-radius: 10px 10px 0 0;
+  border-radius: 20px;
   background-color: $fond-color;
   box-shadow: 3px 0px 5px 4px rgba(0, 0, 0, 0.1);
   text-decoration: none;
@@ -15,6 +15,7 @@
   }
 
   img {
+    border-radius: 10px 10px 0 0;
     width: 400px;
     height: 225px;
     object-fit: fill;

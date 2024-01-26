@@ -12,7 +12,11 @@ function Footer() {
           adaptés à votre style et à vos besoins.
         </p>
         <div className="footer__flex-a-icon">
-          <a href="/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.instagram.com/equipementvelo5/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Icon icon="mdi:instagram" />
           </a>
           <a
