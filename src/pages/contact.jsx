@@ -39,10 +39,10 @@ function ContactForm() {
         message,
       };
       await emailjs.send(
-        "service_qx602fm",
-        "template_i0oa0cl",
+        "service_xhokzsd",
+        "template_s8wslb1",
         templateParams,
-        "aiNkOMGWI24xxwPF-"
+        "TpB4yyeyfhNNBoEtv"
       );
       toggleAlert(
         "Votre e-mail a bien été envoyé, une réponse vous sera renvoyé dans les plus proches délais.",
