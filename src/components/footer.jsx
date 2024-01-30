@@ -38,7 +38,7 @@ function Footer() {
       <div className="footer__flex-b">
         <div>
           <p>
-            © Copyright 2023 &#x2013; Equipement-velo.fr &#x2013; Tous droits
+            © Copyright 2024 &#x2013; Equipement-velo.fr &#x2013; Tous droits
             réservés
           </p>
         </div>
