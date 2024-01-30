@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "../components/editor.scss";
+import "../../components/editor.scss";
 import { useCookies } from "react-cookie";
 import axios from "axios";
-import { baseUrl } from "../utils/baseUrl";
+import { baseUrl } from "../../utils/baseUrl";
 
 const SubmitImage = () => {
   const [cookies] = useCookies(["token"]);

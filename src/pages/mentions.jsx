@@ -18,18 +18,14 @@ function Mentions() {
             <a href="https://equipement-velo.fr">https://equipement-velo.fr</a>
           </p>
 
-          <h3>Propriétaire :</h3>
-
-          <p>Jean Carnez - 3 rue de la Chambre 75000 Paris</p>
-
           <h3>Hébergement du site :</h3>
 
           <p>
-            Le site est hébergé par : Planethoster - siège social : 4416
-            Louis-B.-Mayer, Laval, Québec, Canada H7P 0G1 - Site de Paris - -
-            Tél. : 01 76 60 41 43 - Site web :{" "}
-            <a href="https://www.planethoster.net/fr">
-              www.planethoster.net/fr
+            Le site equipement-velo.fr est hébergé par HOSTINGER, dont le siège
+            social est situé HOSTINGER INTERNATIONAL LTD, 61 Lordou Vironos
+            Street, 6023 Larnaca, Chypre, joignable par le moyen suivant :{" "}
+            <a href="https://www.hostinger.fr/contact">
+              www.hostinger.fr/contact
             </a>
           </p>
 

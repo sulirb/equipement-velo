@@ -1,5 +1,5 @@
 import { useCookies } from "react-cookie";
-import MyEditor from "../components/editor";
+import MyEditor from "../../components/editor";
 import { useNavigate } from "react-router-dom";
 
 function Article() {

@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useCookies } from "react-cookie";
 import axios from "axios";
 import "./connexion.scss";
-import { baseUrl } from "../utils/baseUrl";
+import { baseUrl } from "../../utils/baseUrl";
 
 function Connexion() {
   const [errorMessages, setErrorMessages] = useState({});
@@ -52,7 +52,7 @@ function Connexion() {
         });
         setIsSubmitted(true);
         setTimeout(() => {
-          navigate("/ecriture");
+          navigate("/admin/wr");
         }, 2000);
       }
     } catch (error) {
