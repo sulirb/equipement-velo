@@ -14,13 +14,15 @@ function Pagination({ currentPage }) {
   };
 
   useEffect(() => {
-    fetch(`${baseUrl}/articles/`)
+    fetch(`${baseUrl}/articles/all`)
       .then((res) => res.json())
       .then((data) => setArticles(data));
   }, []);
 
   const pages = Math.ceil(articles.length / 20);
-
+  console.log(pages);
+  console.log(articles.length);
+  console.log(articles);
   return (
     <div className="pagination">
       {currentPage > 1 && (

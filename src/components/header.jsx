@@ -44,7 +44,7 @@ function Header() {
             title="Lunettes"
             options={[
               "Lunettes Alpina",
-              "Lunettes Bolle",
+              "Lunettes Bollé",
               "Lunettes Julbo",
               "Lunettes Oakley",
               "Lunettes Rudy Project",

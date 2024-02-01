@@ -33,15 +33,15 @@
       "Assos Mille GT C2",
       "Assos Equipe RSR S9"
     ],
-    "photos": [],
+    "photos": [
+      "https://www.materiel-velo.com/47795-large_default/cuissard-court-velo-assos-equipe-rs-s9.jpg",
+      "https://media.alltricks.com/large/218488561bb2156115053.01574866.jpg",
+      "https://media.alltricks.com/large/218489061bb214f4ade21.45783255.jpg"
+    ],
     "revendeurs": [
       {
         "nom": "/amazon-logo.png",
-        "link": [
-          "https://www.materiel-velo.com/47795-large_default/cuissard-court-velo-assos-equipe-rs-s9.jpg",
-          "https://media.alltricks.com/large/218488561bb2156115053.01574866.jpg",
-          "https://media.alltricks.com/large/218489061bb214f4ade21.45783255.jpg"
-        ]
+        "link": []
       },
       {
         "nom": "/alltricks-logo.png",

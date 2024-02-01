@@ -44,7 +44,7 @@ function Dropdown({ title, options }) {
             <a
               href={`/${title.toLowerCase().replace(/ê/g, "e")}/${option
                 .replace(/\s+/g, "-")
-                .replace(/ê/g, "e")
+                .replace(/[êé]/g, "e")
                 .replace(/\./g, "-")
                 .toLowerCase()}`}
               key={option}
