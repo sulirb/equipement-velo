@@ -12,6 +12,7 @@ import { vetementsRoute } from "../pages/vetements/router";
 import Mentions from "../pages/mentions";
 import Contact from "../pages/contact";
 import { adminRoute } from "../pages/admin/router";
+import { Sitemap } from "../pages/sitemap";
 
 export function App() {
   return (
@@ -21,6 +22,7 @@ export function App() {
         <Route path="" element={<Home />} />
         <Route path="contact" element={<Contact />} />
         <Route path="mentions-legales" element={<Mentions />} />
+        <Route path="sitemap" element={<Sitemap />} />
         {lunettesRoute()}
         {vetementsRoute()}
         {chaussuresRoute()}

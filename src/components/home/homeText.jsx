@@ -1,6 +1,6 @@
 import "./homeText.scss";
-import loveimg from "../../assets/i_love_bike.jpg";
-import logolist from "../../assets/logolist.png";
+import loveimg from "../../assets/i_love_bike.webp";
+import logolist from "../../assets/logolist.webp";
 
 function HomeText() {
   return (
