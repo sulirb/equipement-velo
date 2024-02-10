@@ -49,9 +49,9 @@
     "slug": "lunettes-julbo",
     "modeles": ["Julbo Ultimate", "Julbo Renegade", "Julbo Fury"],
     "photos": [
-      "https://www.julbo.com/media/catalog/product/5/3/534910.jpg?optimize=medium&fit=bounds&height=700&width=700",
-      "https://www.julbo.com/media/catalog/product/5/3/534564.jpg?optimize=medium&fit=bounds&height=700&width=700",
-      "https://www.julbo.com/media/catalog/product/6/1/618974.jpg?optimize=medium&fit=bounds&height=700&width=700"
+      "https://www.julbo.com/media/catalog/product/5/3/534910.jpg",
+      "https://www.julbo.com/media/catalog/product/5/3/534564.jpg",
+      "https://www.julbo.com/media/catalog/product/6/1/618974.jpg"
     ],
     "revendeurs": [
       {

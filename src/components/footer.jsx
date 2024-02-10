@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer__flex-a">
-        <img src={websiteLogo} alt="Logo du site equipement-velo.com" />
+        <img src={websiteLogo} alt="Logo du site equipement-velo.fr" />
         <p>
           Découvrez les meilleurs conseils pour choisir vos équipements de vélo
           adaptés à votre style et à vos besoins.
@@ -14,6 +14,7 @@ function Footer() {
         <div className="footer__flex-a-icon">
           <a
             href="https://www.instagram.com/equipementvelo5/"
+            aria-label="Instagram"
             target="_blank"
             rel="noreferrer"
           >
@@ -21,6 +22,7 @@ function Footer() {
           </a>
           <a
             href="https://twitter.com/EquipementVelo"
+            aria-label="Twitter"
             target="_blank"
             rel="noreferrer"
           >
@@ -28,6 +30,7 @@ function Footer() {
           </a>
           <a
             href="https://www.facebook.com/profile.php?id=61555770154596"
+            aria-label="Facebook"
             target="_blank"
             rel="noreferrer"
           >

@@ -14,8 +14,8 @@ function Header() {
   return (
     <header className="header">
       <h1 className="header__logo">
-        <a href="/">
-          <img src={websiteLogo} alt="Logo du site equipement-velo.com" />
+        <a href="/" aria-label="Équipement-Vélo">
+          <img src={websiteLogo} alt="Logo du site equipement-velo.fr" />
         </a>
       </h1>
       <nav className="header__nav">

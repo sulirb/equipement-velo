@@ -21,12 +21,10 @@ function Mentions() {
           <h3>Hébergement du site :</h3>
 
           <p>
-            Le site equipement-velo.fr est hébergé par HOSTINGER, dont le siège
-            social est situé HOSTINGER INTERNATIONAL LTD, 61 Lordou Vironos
-            Street, 6023 Larnaca, Chypre, joignable par le moyen suivant :{" "}
-            <a href="https://www.hostinger.fr/contact">
-              www.hostinger.fr/contact
-            </a>
+            Le site equipement-velo.fr est hébergé par RENDER.COM, dont le siège
+            social est situé au 525 Brannan St Suite 300, San Francisco, CA
+            94107, États-Unis, joignable par le moyen suivant :{" "}
+            <a href="support@render.com">support@render.com</a>
           </p>
 
           <h3>
