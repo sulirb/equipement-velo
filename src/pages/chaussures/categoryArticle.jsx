@@ -88,7 +88,13 @@ function ChaussureArticle() {
           </Helmet>
           <h2 className="article__title">{article.title}</h2>
           <div className="article__date">Publié le : {article.createdAt}</div>
-          <img className="article__file" src={article.file} />
+          <img
+            className="article__file"
+            src={article.file}
+            alt={`${article.content
+              .replace(/<[^>]*>/g, "")
+              .substring(0, 20)}...`}
+          />
           <ShoeTable />
           <div
             className="article__text"
