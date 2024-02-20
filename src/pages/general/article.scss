@@ -38,6 +38,9 @@
   &__text a {
     color: #3f48cc;
     text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   &__text img {
     max-height: 400px;
