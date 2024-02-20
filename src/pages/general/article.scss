@@ -18,18 +18,26 @@
   }
   &__text p,
   &__text h2,
-  &__text h3 {
+  &__text h3,
+  &__text h4 {
     text-align: start;
     @extend .textline;
   }
   &__text h3 {
     font-size: 25px;
   }
+  &__text h4 {
+    font-size: 20px;
+  }
   &__text p {
     font-size: 18px;
   }
   &__text p strong {
     margin-top: 2em;
+  }
+  &__text a {
+    color: #3f48cc;
+    text-decoration: none;
   }
   &__text img {
     max-height: 400px;
@@ -62,11 +70,11 @@
     &__text h3 {
       font-size: 20px;
     }
+    &__text h4 {
+      font-size: 18px;
+    }
     &__text p {
       font-size: 16px;
-    }
-    &__text img {
-      width: 60%;
     }
   }
 }
