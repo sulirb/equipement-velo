@@ -38,12 +38,15 @@
   &__text a {
     color: #3f48cc;
     text-decoration: none;
+    font-weight: 700;
+    margin-bottom: 2.5em;
     &:hover {
       text-decoration: underline;
     }
   }
   &__text img {
     max-height: 400px;
+    width: -webkit-fill-available;
   }
 }
 
