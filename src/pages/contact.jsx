@@ -70,6 +70,7 @@ function ContactForm() {
         <div className="contact-form">
           <form
             noValidate
+            aria-label="Contact"
             className="contact-form__flex"
             onSubmit={handleSubmit(onSubmit)}
           >
