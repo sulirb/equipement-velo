@@ -1,5 +1,5 @@
 import { Navigate, Route } from "react-router-dom";
-import ChaussureArticle from "./categoryArticle";
+import ChaussureArticle from "./article";
 
 export function chaussuresRoute() {
   return (

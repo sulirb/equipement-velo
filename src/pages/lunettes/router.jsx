@@ -1,5 +1,5 @@
 import { Navigate, Route } from "react-router-dom";
-import LunetteArticle from "./categoryArticle";
+import LunetteArticle from "./article";
 
 export function lunettesRoute() {
   return (
