@@ -60,6 +60,10 @@ function Article() {
         <div className="article">
           <Helmet>
             <title>{article.title} - Équipement Vélo</title>
+            <link
+              rel="canonical"
+              href={`https://equipement-velo.fr/article/${article.slug}`}
+            />
             <meta
               name="description"
               content={`${article.content

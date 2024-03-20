@@ -61,6 +61,10 @@ function ChaussureArticle() {
         <div className="article">
           <Helmet>
             <title>{article.title} - Équipement Vélo</title>
+            <link
+              rel="canonical"
+              href={`https://equipement-velo.fr/chaussures/${article.slug}`}
+            />
             <meta
               name="description"
               content={`${article.content
