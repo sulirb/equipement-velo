@@ -32,6 +32,26 @@
         <priority>0.5</priority>
     </url>
     <url>
+        <loc>https://www.equipement-velo.fr/chaussures</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.equipement-velo.fr/casques</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.equipement-velo.fr/lunettes</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.equipement-velo.fr/vetements</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
         <loc>https://www.equipement-velo.fr/casques/casques-abus</loc>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
@@ -278,6 +298,16 @@
 </url>
 <url>
     <loc>https://www.equipement-velo.fr/article/les-equipements-primordiaux-pour-le-vtt-les-vetements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://www.equipement-velo.fr/article/les-supports-de-compteur-de-velo-le-guide-complet</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://www.equipement-velo.fr/article/s-hydrater-efficacement-a-velo</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
 </url>

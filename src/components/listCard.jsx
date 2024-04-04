@@ -7,7 +7,7 @@ function Card({ picture, title, href, content }) {
     <Link to={href} className="anchor-listcard">
       <div className="listcard">
         <div className="listcard__image">
-          <img src={picture} alt="logo" crossOrigin="anonymous" />
+          <img src={picture} alt="logo" />
         </div>
         <div className="listcard__flex">
           <h3 className="listcard__flex-title">{title}</h3>
