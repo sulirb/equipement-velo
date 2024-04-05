@@ -41,8 +41,12 @@
     font-weight: 700;
     margin-bottom: 2.5em;
     &:hover {
-      text-decoration: underline;
+      background-color: #01d28e;
     }
+  }
+  &__text ins {
+    margin-bottom: 2em;
+    display: inline-block;
   }
   &__text img {
     margin: 2em 0;
