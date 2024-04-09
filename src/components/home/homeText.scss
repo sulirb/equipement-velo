@@ -54,6 +54,8 @@
     padding: 0;
     &__container {
       border-radius: 0;
+      background-color: $back-article-color;
+      margin: 0;
     }
   }
 }
@@ -64,7 +66,6 @@
     &__container {
       padding: 2em 1em;
       margin: 0 0 4em;
-      background-color: $back-article-color;
     }
     p {
       font-size: 16px;

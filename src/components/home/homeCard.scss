@@ -45,24 +45,18 @@
     max-width: 300px;
     img {
       width: 300px;
+      max-height: 200px;
     }
   }
 }
 
 @media screen and (max-width: 768px) {
   .card {
-    max-width: 400px;
+    width: 100%;
+    max-width: fit-content;
     img {
-      width: 400px;
-    }
-  }
-}
-
-@media screen and (max-width: 520px) {
-  .card {
-    img {
+      object-fit: cover;
       width: 100%;
-      max-width: 420px;
     }
   }
 }
