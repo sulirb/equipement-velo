@@ -14,8 +14,9 @@
     margin-top: 1rem;
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 5vw 0;
+    gap: 5vw 12vh;
     border-radius: 10px;
+    justify-content: center;
   }
   .more-articles {
     margin-right: 0.5em;
@@ -48,6 +49,9 @@
 @media (max-width: 1028px) {
   .articles-grid {
     padding: 0 1.5em;
+    .grid-container {
+      gap: 5vw 0;
+    }
   }
 }
 

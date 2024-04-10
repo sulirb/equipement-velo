@@ -316,4 +316,9 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
 </url>
+<url>
+    <loc>https://www.equipement-velo.fr/article/decouvrez-la-gamme-specialized</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>
 </urlset>

@@ -1,7 +1,7 @@
-import { createContext, useContext, useState, useEffect } from "react";
+import { createContext, useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
-const WindowSizeContext = createContext();
+export const WindowSizeContext = createContext();
 
 export const WindowSizeProvider = ({ children }) => {
   const [windowSize, setWindowSize] = useState({
@@ -29,10 +29,6 @@ export const WindowSizeProvider = ({ children }) => {
       {children}
     </WindowSizeContext.Provider>
   );
-};
-
-export const useWindowSize = () => {
-  return useContext(WindowSizeContext);
 };
 
 WindowSizeProvider.propTypes = {

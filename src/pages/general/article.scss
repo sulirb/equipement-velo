@@ -58,6 +58,9 @@
 @media (max-width: 1200px) {
   .article {
     margin: 0 12em;
+    &__text img {
+      max-height: 30vw;
+    }
   }
 }
 
@@ -65,6 +68,9 @@
   .article {
     margin: 0;
     border-radius: 0;
+    &__text img {
+      max-height: 50vw;
+    }
   }
 }
 
@@ -86,9 +92,6 @@
     }
     &__text p {
       font-size: 16px;
-    }
-    &__text img {
-      max-height: 300px;
     }
   }
 }
