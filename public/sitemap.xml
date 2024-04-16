@@ -321,4 +321,14 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
 </url>
+<url>
+    <loc>https://www.equipement-velo.fr/article/3-maillots-pour-la-belle-saison</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://www.equipement-velo.fr/article/les-accessoires-compatibles-avec-un-compteur-gps</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>
 </urlset>

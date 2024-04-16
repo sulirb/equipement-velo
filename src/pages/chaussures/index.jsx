@@ -26,6 +26,22 @@ function ShoesArticles() {
           />
         </Helmet>
         <h2>Chaussures</h2>
+        <div className="article__text sub">
+          <p>
+            Peu importe la pratique du vélo que vous avez:{" "}
+            <a href="/article/les-equipements-primordiaux-pour-le-vtt-casque-gants-chaussures">
+              VTT
+            </a>
+            , route, ou encore{" "}
+            <a href="/article/les-equipements-indispensables-pour-les-cyclistes-urbains-les-chaussures">
+              urbain
+            </a>
+            , une bonne paire de chaussures est indispensable pour s&apos;amuser
+            en alliant confort, légereté et rigidité. Pour savoir comment
+            choisir des chaussures de vélo, n&apos;hésitez pas à lire nos
+            articles.
+          </p>
+        </div>
         <div className="list-container">
           {articles.map((article) => (
             <Card

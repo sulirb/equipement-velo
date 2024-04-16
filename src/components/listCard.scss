@@ -3,6 +3,7 @@
 .listcard {
   height: 225px;
   box-shadow: 3px 0px 5px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
   text-decoration: none;
   display: flex;
   .listcard__container {
@@ -15,6 +16,7 @@
     font-weight: 700;
   }
   img {
+    border-radius: 50px 0 0 50px;
     width: 400px;
     height: 100%;
   }
@@ -78,10 +80,12 @@
 @media (max-width: 650px) {
   .listcard {
     height: 170px;
+    border-radius: 10px;
     &__image {
       width: 50%;
     }
     img {
+      border-radius: 10px 0 0 10px;
       width: 100%;
       object-fit: cover;
     }

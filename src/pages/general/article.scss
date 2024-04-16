@@ -6,7 +6,6 @@
   margin: 0 12em;
   border-radius: 10px;
   background-color: white;
-
   &__title {
     font-size: 50px;
   }
@@ -54,6 +53,13 @@
     max-height: 400px;
   }
 }
+.sub p {
+  margin-bottom: 15vh;
+}
+.backarticle {
+  padding: 1em 0;
+  background-color: $back-article-color;
+}
 
 @media (max-width: 1200px) {
   .article {
@@ -94,9 +100,4 @@
       font-size: 16px;
     }
   }
-}
-
-.backarticle {
-  padding: 1em 0;
-  background-color: $back-article-color;
 }

@@ -68,6 +68,7 @@ function Dropdown({ title, options }) {
         <Link
           to={`/${title.toLowerCase().replace(/ê/g, "e")}`}
           className="mobile-anchor"
+          title={`Accédez aux articles sur les ${title.toLowerCase()}`}
         >
           <Icon icon="mingcute:arrow-right-fill" />
         </Link>
