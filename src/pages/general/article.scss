@@ -50,7 +50,7 @@
   }
   &__text img {
     margin: 2em 0;
-    max-height: 400px;
+    max-width: 50vw;
   }
 }
 .sub p {
@@ -64,9 +64,6 @@
 @media (max-width: 1200px) {
   .article {
     margin: 0 12em;
-    &__text img {
-      max-height: 30vw;
-    }
   }
 }
 
@@ -74,9 +71,6 @@
   .article {
     margin: 0;
     border-radius: 0;
-    &__text img {
-      max-height: 50vw;
-    }
   }
 }
 
@@ -98,6 +92,9 @@
     }
     &__text p {
       font-size: 16px;
+    }
+    &__text img {
+      max-width: 60vw;
     }
   }
 }

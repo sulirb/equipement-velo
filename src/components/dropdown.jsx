@@ -36,16 +36,16 @@ function Dropdown({ title, options }) {
   }, [width]);
 
   return (
-    <div className="dropdown-container">
+    <li className="dropdown-container">
       <div
         className={`dropdown ${width ? "desktop" : "mobile"}`}
         onMouseEnter={isGreaterThan768px ? toggleDropdown : null}
         onMouseLeave={isGreaterThan768px ? handleDropdownClose : null}
         onClick={!isGreaterThan768px ? toggleDropdown : null}
       >
-        <li className="dropdown__title">
+        <div className="dropdown__title">
           <a href={`/${title.toLowerCase().replace(/ê/g, "e")}`}>{title}</a>
-        </li>
+        </div>
         {isOpen && (
           <div className="dropdown__title-options">
             {options.map((option) => (
@@ -73,7 +73,7 @@ function Dropdown({ title, options }) {
           <Icon icon="mingcute:arrow-right-fill" />
         </Link>
       )}
-    </div>
+    </li>
   );
 }
 
