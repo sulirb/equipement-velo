@@ -52,6 +52,14 @@
     margin: 2em 0;
     max-width: 50vw;
   }
+  &__text ul {
+    margin-bottom: 1.5em;
+  }
+  &__text li {
+    font-size: 18px;
+    text-align: start;
+    @extend .textline;
+  }
 }
 .sub p {
   margin-bottom: 15vh;
@@ -90,11 +98,12 @@
     &__text h4 {
       font-size: 18px;
     }
-    &__text p {
+    &__text p,
+    &__text li {
       font-size: 16px;
     }
     &__text img {
-      max-width: 60vw;
+      max-width: 80vw;
     }
   }
 }
