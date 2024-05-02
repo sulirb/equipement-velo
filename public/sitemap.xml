@@ -346,9 +346,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
-
 <url>
     <loc>https://www.equipement-velo.fr/article/fox-racing-annonce-ses-nouvelles-union-boa-flat</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://www.equipement-velo.fr/article/3-cuissards-pour-la-belle-saison</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>

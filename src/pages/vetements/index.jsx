@@ -32,7 +32,11 @@ function ClothesArticles() {
             <a href="https://www.equipement-velo.fr/article/3-maillots-pour-la-belle-saison">
               maillots
             </a>
-            , aux cuissards, en passant par les vestes,{" "}
+            , aux{" "}
+            <a href="https://www.equipement-velo.fr/article/3-maillots-pour-la-belle-saison">
+              cuissards
+            </a>
+            , en passant par les vestes,{" "}
             <a href="https://www.equipement-velo.fr/article/guide-pour-choisir-ses-gants-de-velo-a-la-mi-saison">
               les gants
             </a>{" "}
