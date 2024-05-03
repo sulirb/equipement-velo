@@ -3,7 +3,7 @@ import Home from "../pages/home";
 import Error from "../pages/error";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import { generalRoute } from "../pages/general/router";
+import { GeneralRoute } from "../pages/general/router";
 import { casquesRoute } from "../pages/casques/router";
 import { lunettesRoute } from "../pages/lunettes/router";
 import { chaussuresRoute } from "../pages/chaussures/router";
@@ -25,7 +25,7 @@ export function App() {
         {vetementsRoute()}
         {chaussuresRoute()}
         {casquesRoute()}
-        {generalRoute()}
+        {GeneralRoute()}
         {adminRoute()}
         <Route path="*" element={<Error />} />
       </Routes>

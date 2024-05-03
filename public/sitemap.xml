@@ -356,4 +356,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
+<url>
+    <loc>https://www.equipement-velo.fr/article/la-nouvelle-collab-ef-x-rapha-pour-le-giro-2024</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
 </urlset>

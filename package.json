@@ -1,9 +1,9 @@
 {
   "name": "vite-project",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-  "homepage": "https://equipement-velo.onrender.com/",
+  "homepage": "https://equipement-velo.fr",
   "scripts": {
     "dev": "vite",
     "start": "vite",
