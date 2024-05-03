@@ -29,6 +29,7 @@ export function GeneralRoute() {
   return (
     <>
       {routes}
+      <Route path="/articles" element={<Articles page={1} />} />
       <Route path="/article/:slug" element={<Article />} />
       <Route path="/article/*" element={<Navigate replace to="/404" />} />
     </>
