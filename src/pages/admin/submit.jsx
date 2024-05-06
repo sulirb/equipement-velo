@@ -2,7 +2,6 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../../components/editor.scss";
 import { useCookies } from "react-cookie";
-import axios from "axios";
 import { baseUrl } from "../../utils/baseUrl";
 
 const SubmitImage = () => {
@@ -14,6 +13,7 @@ const SubmitImage = () => {
   const [imageURL, setImageURL] = useState(null);
   const [confirmationMessage, setConfirmationMessage] = useState("");
   const [error, setError] = useState("");
+  const [selectedFolder, setSelectedFolder] = useState("images");
 
   const handleTitleChange = (e) => {
     setTitle(e.target.value);
@@ -21,6 +21,10 @@ const SubmitImage = () => {
 
   const handleFileChange = (e) => {
     setFile(e.target.files[0]); // Stockez le fichier sélectionné
+  };
+
+  const handleFolderChange = (e) => {
+    setSelectedFolder(e.target.value);
   };
 
   const handleSubmit = (e) => {
@@ -34,6 +38,7 @@ const SubmitImage = () => {
     const formData = new FormData();
     formData.append("title", title);
     formData.append("image", file);
+    formData.append("folder", selectedFolder);
 
     fetch(`${baseUrl}/images`, {
       headers: {
@@ -51,11 +56,9 @@ const SubmitImage = () => {
         }
         return response.json();
       })
-      .then(() => {
-        axios.get(`${baseUrl}/images`).then((resp) => {
-          const datafile = resp.data[0].file;
-          setImageURL(datafile);
-        });
+      .then((data) => {
+        const imageURL = data.link; // Récupérez l'URL de l'image depuis la réponse de la requête POST
+        setImageURL(imageURL);
         setConfirmationMessage("L'image a été enregistré avec succès !");
         setError(""); // Réinitialisez les erreurs
       })
@@ -86,6 +89,13 @@ const SubmitImage = () => {
               <label>
                 <h3>Image:</h3>
                 <input type="file" name="image" onChange={handleFileChange} />
+              </label>
+              <label>
+                <h3>Choisissez le dossier :</h3>
+                <select value={selectedFolder} onChange={handleFolderChange}>
+                  <option value="titre-images">Images</option>
+                  <option value="content">Content</option>
+                </select>
               </label>
             </div>
             <button type="submit">Valider</button>
