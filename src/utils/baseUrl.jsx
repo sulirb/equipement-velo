@@ -1,1 +1,1 @@
-export const baseUrl = "https://equipement-velo-api.onrender.com";
+export const baseUrl = "http://localhost:80";

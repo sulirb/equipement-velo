@@ -25,6 +25,7 @@ const SubmitImage = () => {
 
   const handleFolderChange = (e) => {
     setSelectedFolder(e.target.value);
+    console.log(e.target.value);
   };
 
   const handleSubmit = (e) => {
@@ -93,7 +94,8 @@ const SubmitImage = () => {
               <label>
                 <h3>Choisissez le dossier :</h3>
                 <select value={selectedFolder} onChange={handleFolderChange}>
-                  <option value="titre-images">Images</option>
+                  <option selected>Choisissez</option>
+                  <option value="titre-images">Titre-Images</option>
                   <option value="content">Content</option>
                 </select>
               </label>
