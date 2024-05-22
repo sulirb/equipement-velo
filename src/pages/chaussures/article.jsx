@@ -79,7 +79,7 @@ function ChaussureArticle() {
             />
             <meta name="twitter:image" content={article.file} />
             <meta name="twitter:title" content={article.title} />
-            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:card" content="summary_large_image" />
             <meta property="og:type" content="website" />
             <meta name="og:title" content={article.title} />
             <meta
