@@ -3,7 +3,7 @@
     <url>
         <loc>https://www.equipement-velo.fr</loc>
         <lastmod>2024-03-21</lastmod>
-        <changefreq>daily</changefreq>
+        <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
@@ -18,37 +18,42 @@
     </url>
     <url>
         <loc>https://www.equipement-velo.fr/articles</loc>
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://www.equipement-velo.fr/articles/2</loc>
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://www.equipement-velo.fr/articles/3</loc>
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+        <url>
+        <loc>https://www.equipement-velo.fr/articles/4</loc>
+        <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://www.equipement-velo.fr/chaussures</loc>
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://www.equipement-velo.fr/casques</loc>
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://www.equipement-velo.fr/lunettes</loc>
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://www.equipement-velo.fr/vetements</loc>
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
@@ -378,6 +383,11 @@
 </url>
 <url>
     <loc>https://www.equipement-velo.fr/article/les-3-pneus-parfaits-pour-votre-vtt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://www.equipement-velo.fr/article/quand-vallon-se-lance-dans-les-lunettes-de-velo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
