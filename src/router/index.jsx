@@ -8,7 +8,6 @@ import { casquesRoute } from "../pages/casques/router";
 import { lunettesRoute } from "../pages/lunettes/router";
 import { chaussuresRoute } from "../pages/chaussures/router";
 import { vetementsRoute } from "../pages/vetements/router";
-
 import Mentions from "../pages/mentions";
 import Contact from "../pages/contact";
 import { adminRoute } from "../pages/admin/router";
