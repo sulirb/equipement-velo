@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Navigate, Route } from "react-router-dom";
-import Article from "./article";
 import Articles from "./articles";
 import { baseUrl } from "../../utils/baseUrl";
+import GeneralArticle from "./article";
 
 export function GeneralRoute() {
   const [articles, setArticles] = useState([]);
@@ -30,7 +30,7 @@ export function GeneralRoute() {
     <>
       {routes}
       <Route path="/articles" element={<Articles page={1} />} />
-      <Route path="/article/:slug" element={<Article />} />
+      <Route path="/article/:slug" element={<GeneralArticle />} />
       <Route path="/article/*" element={<Navigate replace to="/404" />} />
     </>
   );

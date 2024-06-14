@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import Error from "../error";
 import ShoeTable from "./shoeTable";
 import "../general/article.scss";
-import { Helmet, HelmetProvider } from "react-helmet-async";
 import { useNavigate } from "react-router-dom";
 import { useCookies } from "react-cookie";
 import { baseUrl } from "../../utils/baseUrl";
@@ -56,58 +55,23 @@ function ChaussureArticle() {
   if (!article) return <Error />;
 
   return (
-    <HelmetProvider>
-      <section className="backarticle">
-        <div className="article">
-          <Helmet>
-            <title>{article.title} - Équipement Vélo</title>
-            <link
-              rel="canonical"
-              href={`https://equipement-velo.fr/chaussures/${article.slug}`}
-            />
-            <meta
-              name="description"
-              content={`${article.content
-                .replace(/<[^>]*>/g, "")
-                .substring(0, 150)}...`}
-            />
-            <meta
-              name="twitter:description"
-              content={`${article.content
-                .replace(/<[^>]*>/g, "")
-                .substring(0, 150)}...`}
-            />
-            <meta name="twitter:image" content={article.file} />
-            <meta name="twitter:title" content={article.title} />
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta property="og:type" content="website" />
-            <meta name="og:title" content={article.title} />
-            <meta
-              name="og:description"
-              content={`${article.content
-                .replace(/<[^>]*>/g, "")
-                .substring(0, 150)}...`}
-            />
-            <meta name="og:image" content={article.file} />
-          </Helmet>
-          <h2 className="article__title">{article.title}</h2>
-          <div className="article__date">Publié le : {article.createdAt}</div>
-          <img
-            className="article__file"
-            src={article.file}
-            alt={`${article.content
-              .replace(/<[^>]*>/g, "")
-              .substring(0, 20)}...`}
-          />
-          <ShoeTable />
-          <div
-            className="article__text"
-            dangerouslySetInnerHTML={{ __html: article.content }}
-          />
-          {token ? <button onClick={deleteArticle}>DELETE</button> : ""}
-        </div>{" "}
-      </section>
-    </HelmetProvider>
+    <section className="backarticle">
+      <div className="article">
+        <h2 className="article__title">{article.title}</h2>
+        <div className="article__date">Publié le : {article.createdAt}</div>
+        <img
+          className="article__file"
+          src={article.file}
+          alt={`${article.content.replace(/<[^>]*>/g, "").substring(0, 20)}...`}
+        />
+        <ShoeTable />
+        <div
+          className="article__text"
+          dangerouslySetInnerHTML={{ __html: article.content }}
+        />
+        {token ? <button onClick={deleteArticle}>DELETE</button> : ""}
+      </div>{" "}
+    </section>
   );
 }
 

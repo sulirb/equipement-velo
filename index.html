@@ -8,6 +8,68 @@
       content="upgrade-insecure-requests"
     />
     <meta name="theme-color" content="#f87123" />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const particle = window.location.pathname.split("/").pop();
+        if (particle) {
+          fetch(`https://equipement-velo-api.onrender.com/article/${particle}`)
+            .then((response) => response.json())
+            .then((data) => {
+              console.log(data);
+              if (
+                data.title &&
+                (data.tag === "chaussures" ||
+                  data.tag === "vetements" ||
+                  data.tag === "casques" ||
+                  data.tag === "lunettes")
+              ) {
+                document
+                  .querySelector('link[rel="canonical"]')
+                  .setAttribute(
+                    "href",
+                    `https://equipement-velo.fr/${data.tag}/${data.slug}`
+                  );
+              } else if (data.title) {
+                document
+                  .querySelector('link[rel="canonical"]')
+                  .setAttribute(
+                    "href",
+                    `https://equipement-velo.fr/article/${data.slug}`
+                  );
+              }
+              if (data.title) {
+                document.title = data.title + " - Équipement Vélo";
+                document
+                  .querySelector('meta[name="description"]')
+                  .setAttribute(
+                    "content",
+                    data.content.replace(/<[^>]*>/g, "").substring(0, 150) +
+                      "..."
+                  );
+                document
+                  .querySelector('meta[name="og:title"]')
+                  .setAttribute("content", data.title);
+                document
+                  .querySelector('meta[name="og:description"]')
+                  .setAttribute(
+                    "content",
+                    data.content.replace(/<[^>]*>/g, "").substring(0, 150) +
+                      "..."
+                  );
+                document
+                  .querySelector('meta[property="og:image"]')
+                  .setAttribute("content", data.file);
+                document
+                  .querySelector('meta[property="og:type"]')
+                  .setAttribute("content", "website");
+              }
+            })
+            .catch((error) =>
+              console.error("Error fetching meta tags:", error)
+            );
+        }
+      });
+    </script>
     <title>
       Équipement Vélo - Conseils Casques, Vêtements, Lunettes et Chaussures
     </title>
@@ -21,6 +83,7 @@
       defer
     />
     <link rel="preload" href="src/assets/bannerimage.webp" as="image" />
+    <link rel="canonical" href="https://equipement-velo.fr" />
     <meta
       name="description"
       content="Découvrez nos meilleurs conseils pour choisir casques, lunettes, vêtements et chaussures de vélo adaptés à votre style et à vos besoins."
@@ -43,19 +106,6 @@
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@EquipementVelo" />
-    <meta
-      name="twitter:title"
-      content="Équipement Vélo - Roulez avec style et en sécurité"
-    />
-    <meta
-      name="twitter:description"
-      content="Découvrez les meilleurs conseils pour choisir les casques, lunettes, vêtements et chaussures de vélo adaptés à votre style et à vos besoins."
-    />
-    <meta name="twitter:url" content="https://equipement-velo.fr" />
-    <meta
-      property="twitter:image"
-      content="https://equipement-velo.s3.eu-west-3.amazonaws.com/logo/logo-fb-size.png"
-    />
     <!-- Google tag (gtag.js) -->
     <script
       async
