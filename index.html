@@ -8,6 +8,43 @@
       content="upgrade-insecure-requests"
     />
     <meta name="theme-color" content="#f87123" />
+    <title>
+      Équipement Vélo - Conseils Casques, Vêtements, Lunettes et Chaussures
+    </title>
+    <link rel="icon" type="image/svg+xml" href="/velowheel.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+      defer
+    />
+    <link rel="preload" href="src/assets/bannerimage.webp" as="image" />
+    <link rel="canonical" href="https://equipement-velo.fr" />
+    <meta
+      name="description"
+      content="Découvrez nos meilleurs conseils pour choisir casques, lunettes, vêtements et chaussures de vélo adaptés à votre style et à vos besoins."
+    />
+    <meta name="og:url" content="https://equipement-velo.fr" />
+
+    <meta
+      name="og:title"
+      content="Équipement Vélo - Roulez avec style et en sécurité"
+    />
+    <meta
+      name="og:description"
+      content="Découvrez nos meilleurs conseils pour choisir casques, lunettes, vêtements et chaussures de vélo adaptés à votre style et à vos besoins."
+    />
+    <meta
+      property="og:image"
+      content="https://equipement-velo.s3.eu-west-3.amazonaws.com/logo/logo-fb-size.png"
+    />
+    <meta property="og:site_name" content="Équipement Vélo" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@EquipementVelo" />
+    <!-- Google tag (gtag.js) -->
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const particle = window.location.pathname.split("/").pop();
@@ -15,7 +52,6 @@
           fetch(`https://equipement-velo-api.onrender.com/article/${particle}`)
             .then((response) => response.json())
             .then((data) => {
-              console.log(data);
               if (
                 data.title &&
                 (data.tag === "chaussures" ||
@@ -70,43 +106,6 @@
         }
       });
     </script>
-    <title>
-      Équipement Vélo - Conseils Casques, Vêtements, Lunettes et Chaussures
-    </title>
-    <link rel="icon" type="image/svg+xml" href="/velowheel.png" />
-    <link rel="manifest" href="/manifest.json" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-      defer
-    />
-    <link rel="preload" href="src/assets/bannerimage.webp" as="image" />
-    <link rel="canonical" href="https://equipement-velo.fr" />
-    <meta
-      name="description"
-      content="Découvrez nos meilleurs conseils pour choisir casques, lunettes, vêtements et chaussures de vélo adaptés à votre style et à vos besoins."
-    />
-    <meta name="og:url" content="https://equipement-velo.fr" />
-
-    <meta
-      name="og:title"
-      content="Équipement Vélo - Roulez avec style et en sécurité"
-    />
-    <meta
-      name="og:description"
-      content="Découvrez nos meilleurs conseils pour choisir casques, lunettes, vêtements et chaussures de vélo adaptés à votre style et à vos besoins."
-    />
-    <meta
-      property="og:image"
-      content="https://equipement-velo.s3.eu-west-3.amazonaws.com/logo/logo-fb-size.png"
-    />
-    <meta property="og:site_name" content="Équipement Vélo" />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@EquipementVelo" />
-    <!-- Google tag (gtag.js) -->
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-JNFF13MLTT"
