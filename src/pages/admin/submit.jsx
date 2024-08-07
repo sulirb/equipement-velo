@@ -25,7 +25,6 @@ const SubmitImage = () => {
 
   const handleFolderChange = (e) => {
     setSelectedFolder(e.target.value);
-    console.log(e.target.value);
   };
 
   const handleSubmit = (e) => {

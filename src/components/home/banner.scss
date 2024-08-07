@@ -41,17 +41,17 @@
 @media (max-width: 1028px) {
   .banner {
     padding: 5rem 10rem 10rem;
-  }
-  .banner__title {
-    font-size: 60px;
+    &__title {
+      font-size: 60px;
+    }
   }
 }
 
 @media (max-width: 768px) {
   .banner {
     padding: 5rem 2rem 10rem 2rem;
-  }
-  .banner__title {
-    font-size: 40px;
+    &__title {
+      font-size: 40px;
+    }
   }
 }

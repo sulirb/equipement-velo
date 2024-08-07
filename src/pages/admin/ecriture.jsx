@@ -1,6 +1,7 @@
 import { useCookies } from "react-cookie";
-import MyEditor from "../../components/editor";
+// import MyEditor from "../../components/editor";
 import { useNavigate } from "react-router-dom";
+import Tiptap from "../../components/tiptap";
 
 function Article() {
   const [cookies] = useCookies(["token"]);
@@ -10,7 +11,7 @@ function Article() {
   return (
     <div>
       {token ? (
-        <MyEditor />
+        <Tiptap />
       ) : (
         setTimeout(() => {
           navigate("/404");
